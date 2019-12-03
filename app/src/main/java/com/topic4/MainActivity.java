@@ -2,6 +2,7 @@ package com.topic4;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -54,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         btnOpen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new intent (MainActivity.this,capital.class);
+                Intent intent = new Intent(MainActivity.this,Capital.class);
                 intent
             }
         });
